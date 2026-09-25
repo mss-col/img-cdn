@@ -1,0 +1,552 @@
+{
+ "_nota": "Logo rasmi Vidio — batch 2 (provider Vidio). Sumber: medan `square_image` (imej segi empat 1:1), BUKAN medan `logo` (thumbnail promosi 16:9).",
+ "_sejarah": "Dibuat 2026-09-25. Arahan Boss: dapatkan imej rasmi tvg-logo by batch, by categori provider. Batch 1 = StarHub, batch 2 = Vidio.",
+ "_medan": {
+  "cid": "id saluran Vidio",
+  "nama": "nama paparan playlist",
+  "fail": "nama fail dlm folder ini",
+  "url": "URL jsDelivr yg dipakai dlm playlist",
+  "md5": "md5 fail (bukti)",
+  "kategori": "kategori Vidio (fta/event/dsb)",
+  "sumber": "URL square_image asal (provenance)"
+ },
+ "_liputan": {
+  "saluran_vidio": 71,
+  "ada_logo_rasmi": 57,
+  "tiada": [
+   "20216",
+   "21289",
+   "21896",
+   "22240",
+   "22241",
+   "22243",
+   "22244",
+   "22245",
+   "22246",
+   "22247",
+   "22328",
+   "22329",
+   "22330",
+   "22340"
+  ],
+  "nota_tiada": "14 saluran kategori 'event' (Asian Games, tenis ATP, Champions Fight, Citra Plus) — halaman Vidio tidak menyediakan square_image; hanya thumbnail 16:9 ada. Dikecualikan, bukan gagal senyap."
+ },
+ "_cara_ambil_semula": "Guna `py/vidio_orchestrator.py` utk segarkan data/vidio_mapping_worker.json, kemudian `scripts/ambil_logo_vidio.py`.",
+ "_nama_fail": "channels/vidio/<slug>.png — slug drpd nama saluran (lowercase, underscore).",
+ "_batch": 2,
+ "rekod": {
+  "204": {
+   "cid": "204",
+   "nama": "SCTV",
+   "fail": "sctv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/sctv.png",
+   "md5": "3aa71e2db14883f3e27256b02723b5b4",
+   "kategori": "premium",
+   "sumber": "https://thumbor.prod.vidiocdn.com/ecFVrj8JzICWgM2SMUxX4R9D0HE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png"
+  },
+  "205": {
+   "cid": "205",
+   "nama": "Indosiar",
+   "fail": "indosiar.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/indosiar.png",
+   "md5": "339d328407d0190de61fc687a3b3f12f",
+   "kategori": "premium",
+   "sumber": "https://thumbor.prod.vidiocdn.com/4dOp7m3w5ICbxhzTtk1Ex5gSCQ4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png"
+  },
+  "206": {
+   "cid": "206",
+   "nama": "Moji",
+   "fail": "moji.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/moji.png",
+   "md5": "1b43c899bde3813c7f5827006a50742a",
+   "kategori": "premium",
+   "sumber": "https://thumbor.prod.vidiocdn.com/B8ia9FA67_3sPuxCjxdP7rPnjTo=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png"
+  },
+  "665": {
+   "cid": "665",
+   "nama": "RCTI",
+   "fail": "rcti.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/rcti.png",
+   "md5": "a13c1f30dab96a0997f1c50fbfb230d5",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/we--vXstRzjFP1Tcq96cfrFgnyo=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png"
+  },
+  "733": {
+   "cid": "733",
+   "nama": "TRANS TV",
+   "fail": "trans_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/trans_tv.png",
+   "md5": "fb002a9a7bab4acd6beb11b7178533ec",
+   "kategori": "premium",
+   "sumber": "https://thumbor.prod.vidiocdn.com/hX4LMwEcRxk7uqJj3iBLxhdqgns=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png"
+  },
+  "734": {
+   "cid": "734",
+   "nama": "Trans7",
+   "fail": "trans7.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/trans7.png",
+   "md5": "cff4370467b58117306dac39a951cfdf",
+   "kategori": "premium",
+   "sumber": "https://thumbor.prod.vidiocdn.com/Q-BMgr5ZBeAOhA8WePgkBSY9E78=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png"
+  },
+  "777": {
+   "cid": "777",
+   "nama": "Metro TV",
+   "fail": "metro_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/metro_tv.png",
+   "md5": "7b6434fc4d2d9087bd7458e380bf139d",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/G1_SAdyF6MCMO32Tp5lbqrEGU04=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png"
+  },
+  "778": {
+   "cid": "778",
+   "nama": "GTV",
+   "fail": "gtv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/gtv.png",
+   "md5": "d50ebe020950726e7147623e53d07249",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/5zAPwhv_G4bw1QbSWY8u34twY7A=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png"
+  },
+  "782": {
+   "cid": "782",
+   "nama": "ANTV",
+   "fail": "antv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/antv.png",
+   "md5": "d4dfa84b7048eec87d870f3419fb8b58",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/_TKXKm8Fu4VhnNBuUHyau-GVGwk=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png"
+  },
+  "783": {
+   "cid": "783",
+   "nama": "TVOne",
+   "fail": "tvone.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/tvone.png",
+   "md5": "33f471392f74f57c1cc6c585a1bb8ab9",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/9TW1c02CReBiy4W_38_U1bZLH00=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png"
+  },
+  "870": {
+   "cid": "870",
+   "nama": "MNCTV",
+   "fail": "mnctv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/mnctv.png",
+   "md5": "abe1ce2a50e39c5093552d3466c0043a",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/SKtWDcqzJIRuskUBiZZ_lQFeFI4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png"
+  },
+  "874": {
+   "cid": "874",
+   "nama": "Kompas TV",
+   "fail": "kompas_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/kompas_tv.png",
+   "md5": "61591a2b17b9bc40b47580b81071f4eb",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/VXUNeSyl2ZQJjeg-iVF9Y0VCM14=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png"
+  },
+  "875": {
+   "cid": "875",
+   "nama": "MDTV",
+   "fail": "mdtv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/mdtv.png",
+   "md5": "2bfd491fbf731852b32b310a00d036f0",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/m1yPSzmcrHhsT4npVmRcVs5CagI=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png"
+  },
+  "1561": {
+   "cid": "1561",
+   "nama": "RTV",
+   "fail": "rtv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/rtv.png",
+   "md5": "7b3c4447d69cf2b22fde4fc37267ad1c",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/-TEGLlnyJ8yXXiuQNNdQKzry8DE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png"
+  },
+  "5075": {
+   "cid": "5075",
+   "nama": "DW English",
+   "fail": "dw_english.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/dw_english.png",
+   "md5": "77dd8ce569bffcd3adf1a4b238974e35",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/n_QcHhY4WZv66Mz7C8vbd6YUCSs=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5075/f6106b.png"
+  },
+  "5409": {
+   "cid": "5409",
+   "nama": "iNews",
+   "fail": "inews.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/inews.png",
+   "md5": "e3bb3733417806d309078ef4aa1db918",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/C_zTD5jXzmWrEjItLoUq9FhocuM=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png"
+  },
+  "5415": {
+   "cid": "5415",
+   "nama": "Jaktv",
+   "fail": "jaktv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/jaktv.png",
+   "md5": "f79e9ad26488b1adf6fdad7e03ba2096",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/lg0zXh9l5ZEXKPR7rk9ath6eYxA=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5415/802b76.png"
+  },
+  "6165": {
+   "cid": "6165",
+   "nama": "BTV",
+   "fail": "btv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/btv.png",
+   "md5": "be79749f202a8f94a071a595dbef8922",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/Eti2XuCcuhMuKjG9oPHwEQAq-qM=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6165/8c950f.png"
+  },
+  "6299": {
+   "cid": "6299",
+   "nama": "Bein 1",
+   "fail": "bein_1.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/bein_1.png",
+   "md5": "3109ab72a452a6d00bcee520a02e77a3",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/y1ZgJ_E_fULa_65PH3nT80UJF_I=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6299/d74f54.png"
+  },
+  "6317": {
+   "cid": "6317",
+   "nama": "Bein 3",
+   "fail": "bein_3.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/bein_3.png",
+   "md5": "1a29d4748ce9155084c55a2496445f01",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/ZEiAXU3S_vMhSAF_RjNvYZcelTE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6317/4a8762.png"
+  },
+  "6362": {
+   "cid": "6362",
+   "nama": "TVN",
+   "fail": "tvn.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/tvn.png",
+   "md5": "7358dbaff093043824bc7207db371236",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/ZxmQdQbFaiKruQdnnBvg7VVRzMw=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6362/dcd434.png"
+  },
+  "6397": {
+   "cid": "6397",
+   "nama": "Horee",
+   "fail": "horee.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/horee.png",
+   "md5": "3e594b60a8f0a033f69ce6634734623a",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/lCtCvzhGCyf-bdi5z3yYkM_gX4o=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6397/d422cd.png"
+  },
+  "6410": {
+   "cid": "6410",
+   "nama": "Aljazeera",
+   "fail": "aljazeera.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/aljazeera.png",
+   "md5": "fd91f47668087b73635530a490ffe0e7",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/KAbCtzN_JfIrJ9SoiF-9BD5fa1w=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6410/6027db.png"
+  },
+  "6412": {
+   "cid": "6412",
+   "nama": "Euronews",
+   "fail": "euronews.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/euronews.png",
+   "md5": "ffc79e1572d91a9560d531d489a7d8b5",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/rsQQl5Wa6BzGYKvmo2_KLfrggiE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6412/c0e105.png"
+  },
+  "6441": {
+   "cid": "6441",
+   "nama": "TVRI",
+   "fail": "tvri.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/tvri.png",
+   "md5": "c977947fcc3cf11c53bb2382a6004a61",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/CIOji1upUwrbGxjTzb4uh4B0XuI=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6441/528cc9.png"
+  },
+  "6482": {
+   "cid": "6482",
+   "nama": "DAAI TV",
+   "fail": "daai_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/daai_tv.png",
+   "md5": "3e137d628b358e351accec0de928e21f",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/6U6_XXH2Rb-Fx4xlKPxwfK-pVUo=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6482/e83fcf.png"
+  },
+  "6685": {
+   "cid": "6685",
+   "nama": "Champions TV 1",
+   "fail": "champions_tv_1.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/champions_tv_1.png",
+   "md5": "93a9391a65afb817bded513a6388a105",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/7zxlGS0bP4g3hJVIiIOhRuR6Ry4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6685/a2ed39.png"
+  },
+  "6686": {
+   "cid": "6686",
+   "nama": "Champions TV 2",
+   "fail": "champions_tv_2.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/champions_tv_2.png",
+   "md5": "a6bd0ca39d60cb332888323508fd34ca",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/mZ8DpUcz7LfsuC-a-WId6gIjGyo=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6686/14270d.png"
+  },
+  "6784": {
+   "cid": "6784",
+   "nama": "Arirang",
+   "fail": "arirang.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/arirang.png",
+   "md5": "66be65a190e3fa680cffea2cbd8c2e80",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/FI16wp3HnZC7QXQFU6J9JX20qto=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6784/b9cb20.png"
+  },
+  "6786": {
+   "cid": "6786",
+   "nama": "Champions TV 3",
+   "fail": "champions_tv_3.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/champions_tv_3.png",
+   "md5": "3285fbd5eb707d2eb4ec8f19cbd17983",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/08kLgJ6j2ZD-0BkBaKBGpRHQCPg=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6786/d2ebc5.png"
+  },
+  "6852": {
+   "cid": "6852",
+   "nama": "Makkah TV",
+   "fail": "makkah_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/makkah_tv.png",
+   "md5": "62dc59e29e89979793f5c8fde7a25765",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/9KzeJ75eILRdhkaz23HHgj2Hc8c=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6852/1047bc.png"
+  },
+  "6898": {
+   "cid": "6898",
+   "nama": "U-Channel TV",
+   "fail": "u_channel_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/u_channel_tv.png",
+   "md5": "deeff888fb1882f3786b1fdefe7c4963",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/WF0j-iodnfGG6d6tYQv87S_n-4I=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6898/7e119a.png"
+  },
+  "7052": {
+   "cid": "7052",
+   "nama": "Hip Hip Horee!",
+   "fail": "hip_hip_horee.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/hip_hip_horee.png",
+   "md5": "ff02240a2ad5bf065da1a36ca96475af",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/S0O_ueX7tetgFbtuVTRc80lCkaQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7052/63032e.png"
+  },
+  "7150": {
+   "cid": "7150",
+   "nama": "ABC Australia",
+   "fail": "abc_australia.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/abc_australia.png",
+   "md5": "a97fccf5cee55f426c7b1a5545d9213a",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/4MzMFVS-cNkeRQPQBWzyfBbs5yQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7150/2de77e.png"
+  },
+  "7432": {
+   "cid": "7432",
+   "nama": "Nusantara TV",
+   "fail": "nusantara_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/nusantara_tv.png",
+   "md5": "ae6d12c2b14fc755cd320d56d9a79534",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/FpQyxMB0BuAQuFn97V_m7tzgdT8=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png"
+  },
+  "7464": {
+   "cid": "7464",
+   "nama": "AJWA TV",
+   "fail": "ajwa_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/ajwa_tv.png",
+   "md5": "2ac8928d2bfdc236843ecde9b64c23a6",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/DnLnF6XXEf8A1B1QVyC4DsjwJH8=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7464/e69965.png"
+  },
+  "7619": {
+   "cid": "7619",
+   "nama": "MUSICA",
+   "fail": "musica.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/musica.png",
+   "md5": "e42402012d5c92eae728b1b1d9420d2f",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/A40he2C8vuvLjF801wxUFf9w86w=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7619/379f71.png"
+  },
+  "8121": {
+   "cid": "8121",
+   "nama": "Rock Action",
+   "fail": "rock_action.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/rock_action.png",
+   "md5": "e5ce05237bbd822b4632e8b0d79aa232",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/BzIjUt8KcAX8zP1c922OBJSronc=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8121/e9e2b9.png"
+  },
+  "8237": {
+   "cid": "8237",
+   "nama": "Mentari TV",
+   "fail": "mentari_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/mentari_tv.png",
+   "md5": "99ac2758b9e9f506e275bda3047d0e42",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/e-Vn0ks8I4XixZAcnwZ5CQC1oJc=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8237/18585d.png"
+  },
+  "9182": {
+   "cid": "9182",
+   "nama": "Champions TV 5",
+   "fail": "champions_tv_5.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/champions_tv_5.png",
+   "md5": "403bb0eac45d160e229a1884e5278161",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/Bybekw5JRdJKL6iztfQ5sHDF7MQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/9182/13b733.png"
+  },
+  "9183": {
+   "cid": "9183",
+   "nama": "Champions TV 6",
+   "fail": "champions_tv_6.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/champions_tv_6.png",
+   "md5": "780c9d24ff50f6cc999c779dac6ad353",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/pTl-5oHQSHsclcDN185N8tKg8Uw=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/9183/33e19d.png"
+  },
+  "9353": {
+   "cid": "9353",
+   "nama": "Premier League TV",
+   "fail": "premier_league_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/premier_league_tv.png",
+   "md5": "a0e3ef89d43d8e20c52ee92631071b7f",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/40gx4emkkIovC0o23Vp2K95Hw7o=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/9353/a79dfe.png"
+  },
+  "9713": {
+   "cid": "9713",
+   "nama": "JTV",
+   "fail": "jtv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/jtv.png",
+   "md5": "08c1d8cd63e17856c286b148bedd9d2d",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/FMM-Rhbr6JnyVHGn9gWbHlp9EZI=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/9713/a11faf.png"
+  },
+  "9714": {
+   "cid": "9714",
+   "nama": "jawaposTV",
+   "fail": "jawapostv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/jawapostv.png",
+   "md5": "b2fcee5affd075185eb0100ad5a7c318",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/W1NMdGjWc3j6DWAhTJm2BVcbQYc=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/9714/5a2fad.jpg"
+  },
+  "12607": {
+   "cid": "12607",
+   "nama": "DMI TV",
+   "fail": "dmi_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/dmi_tv.png",
+   "md5": "99980b1263128a5a7733a04b6eef0e58",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/98i-p2Um7rKAW95jN20CdGKpVjQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/12607/de1855.png"
+  },
+  "12784": {
+   "cid": "12784",
+   "nama": "Africanews",
+   "fail": "africanews.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/africanews.png",
+   "md5": "9d574d3a5867d91ce0b5650c640f1db7",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/6WwK4SHf2ujdGwQfXGZoFUvGjwc=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/12784/b75a42.png"
+  },
+  "17139": {
+   "cid": "17139",
+   "nama": "SPOTV",
+   "fail": "spotv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/spotv.png",
+   "md5": "8e8c37371cc89125789abc1c9f081e7e",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/I_cKI3n6wqqmknUpenbMqlV_Od4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/17139/e5207b.png"
+  },
+  "17140": {
+   "cid": "17140",
+   "nama": "SPOTV 2",
+   "fail": "spotv_2.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/spotv_2.png",
+   "md5": "0f6eabd50b95b714a9becb9816fecd78",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/cgaRCSIl3syoabed4SlLkSrgVv4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/17140/18e12a.png"
+  },
+  "17278": {
+   "cid": "17278",
+   "nama": "TV5Monde",
+   "fail": "tv5monde.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/tv5monde.png",
+   "md5": "fdb1f94c8f9800d3cd6debe4c8acc4da",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/e2sfiYH8AyJphiGSLmCdeAMRlPw=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/17278/138bad.png"
+  },
+  "17875": {
+   "cid": "17875",
+   "nama": "Bein 2",
+   "fail": "bein_2.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/bein_2.png",
+   "md5": "4df9c2ef44facfe959bbdd1228bbfa35",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/iGLElqeYzSieO0jaHD1cdRx4VBk=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/17875/afb4ca.png"
+  },
+  "18162": {
+   "cid": "18162",
+   "nama": "Garuda TV",
+   "fail": "garuda_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/garuda_tv.png",
+   "md5": "0a3f3cb9b1e260049ecd9c9149badae4",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/ZksObxQzZykloyX_Tl3ShtyJ8cY=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/18162/b4bea2.png"
+  },
+  "18189": {
+   "cid": "18189",
+   "nama": "Champions Golf 1",
+   "fail": "champions_golf_1.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/champions_golf_1.png",
+   "md5": "a4f16cd332ad2e0707abedee3ed552c8",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/kgNamgXARO6F2n2g8KdtSJ2uLB4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/18189/8180b2.png"
+  },
+  "18190": {
+   "cid": "18190",
+   "nama": "Champions Golf 2",
+   "fail": "champions_golf_2.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/champions_golf_2.png",
+   "md5": "6c7b94ad695db38a1ab7146dd3e0fb36",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/sYLJKdWKt0P1WjC2koA6UUV65EA=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/18190/541269.png"
+  },
+  "18280": {
+   "cid": "18280",
+   "nama": "Berita Satu",
+   "fail": "berita_satu.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/berita_satu.png",
+   "md5": "536f966381ac68122c53901ba06cb1b5",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/bhAGYqTkDBxFE5cOXVNOo-mRqgk=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/18280/c7fc8f.png"
+  },
+  "18622": {
+   "cid": "18622",
+   "nama": "Daystar TV",
+   "fail": "daystar_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/daystar_tv.png",
+   "md5": "c263e233e8a742704b68b4b48daca657",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/EaWe13ZGh3zcrbXawCcTw35f_co=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/18622/d20ab7.png"
+  },
+  "19046": {
+   "cid": "19046",
+   "nama": "Sin Po TV",
+   "fail": "sin_po_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/sin_po_tv.png",
+   "md5": "a49de9f2c864f605209c7acef429c3e9",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/HnOxxEoBuPXBcFw4gGtKnXQ0C8M=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/19046/aaa3fa.png"
+  },
+  "19538": {
+   "cid": "19538",
+   "nama": "Real Madrid TV",
+   "fail": "real_madrid_tv.png",
+   "url": "https://cdn.jsdelivr.net/gh/mss-col/img-cdn/channels/vidio/real_madrid_tv.png",
+   "md5": "9c7cd00ef273603e951f593c640de0f2",
+   "kategori": "fta",
+   "sumber": "https://thumbor.prod.vidiocdn.com/6b6zuiZDJlCOuuLMdBKRIV4S_B4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/19538/c129a3.png"
+  }
+ }
+}
