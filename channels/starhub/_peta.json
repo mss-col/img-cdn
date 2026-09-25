@@ -1,11 +1,4 @@
 {
- "222.starhub": {
-  "nama": "Hub Premier 2 (HD)",
-  "num": "222",
-  "fail": "hub_premier_2_hd.png",
-  "saiz": 12018,
-  "md5": "dd9343e56a39356bdefee50d97a033b1"
- },
  "221.starhub": {
   "nama": "Hub Premier 1",
   "num": "221",
@@ -740,5 +733,64 @@
   "fail": "nickelodeon_asia_hd.png",
   "saiz": 8332,
   "md5": "84f6c9cf8baf51ec83465fcd17ac1667"
+ },
+ "222.starhub|Hub Premier 2 4K": {
+  "nama": "Hub Premier 2 4K",
+  "num": "222",
+  "fail": "hub_premier_2_hd.png",
+  "saiz": 12018,
+  "md5": "dd9343e56a39356bdefee50d97a033b1"
+ },
+ "222.starhub|Hub Premier 2 (HD)": {
+  "nama": "Hub Premier 2 (HD)",
+  "num": "222",
+  "fail": "hub_premier_2_hd.png",
+  "saiz": 12018,
+  "md5": "dd9343e56a39356bdefee50d97a033b1"
+ },
+ "sg_mediacorp_ch8_dash": {
+  "nama": "Channel 8 HD",
+  "num": "103",
+  "fail": "sg_mediacorp_ch8.png",
+  "saiz": 10262,
+  "md5": "947479ac2808834c1d368e386a55f6a1",
+  "tvg_id": "2.mewatch",
+  "gerbang": "starhubtv/go"
+ },
+ "sg_mediacorp_suria_dash": {
+  "nama": "Suria HD",
+  "num": "104",
+  "fail": "sg_mediacorp_suria.png",
+  "saiz": 8106,
+  "md5": "522e0b64225ebbfa46c14a4b75875148",
+  "tvg_id": "4.mewatch",
+  "gerbang": "starhubtv/go"
+ },
+ "sg_mediacorp_vasantham_dash": {
+  "nama": "Vasantham HD",
+  "num": "105",
+  "fail": "sg_mediacorp_vasantham.png",
+  "saiz": 8299,
+  "md5": "07048957f3e674cde444c1faf9133cec",
+  "tvg_id": "5.mewatch",
+  "gerbang": "starhubtv/go"
+ },
+ "sg_mediacorp_cna_dash": {
+  "nama": "Channel News Asia HD",
+  "num": "106",
+  "fail": "sg_mediacorp_cna.png",
+  "saiz": 7011,
+  "md5": "0d3e2e044eea1e6ac5c94d4b64eb9fed",
+  "tvg_id": "6.mewatch",
+  "gerbang": "starhubtv/go"
+ },
+ "sg_mediacorp_chu_dash": {
+  "nama": "Channel U HD",
+  "num": "107",
+  "fail": "sg_mediacorp_chu.png",
+  "saiz": 7567,
+  "md5": "9faa20d9feac2d87cf317502780962f4",
+  "tvg_id": "3.mewatch",
+  "gerbang": "starhubtv/go"
  }
 }
