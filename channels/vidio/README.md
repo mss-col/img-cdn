@@ -1,7 +1,25 @@
 # channels/vidio/ — logo rasmi Vidio (batch 2)
 
-57 logo saluran Vidio, dibuang latar + dipotong alfa, kanvas **190x80** (sama
-seperti `channels/starhub/` dan `channels/mewatch/`).
+57 logo saluran Vidio, dibuang latar + dipotong alfa.
+
+⚠⚠ **KANVAS 190x110, bukan 190x80** (2026-09-25).
+
+47 daripada 57 logo ini ialah **CAKERA** (seni bulat dari sumber Vidio sendiri,
+liputan 78-79%). Pada kanvas 190x80 nisbah 2.375 lebih lebar daripada sel app
+(**195x111**, nisbah 1.76 yang diukur pada tangkapan skrin), jadi app
+memperkecilkannya: cakera 80px muncul sebagai **82px** sahaja.
+
+Pada kanvas **190x110** (nisbah 1.727), app guna tinggi penuh → cakera muncul
+**111px** — had maksimum sel 16:9, dan kini SAMA tinggi dengan imej event 16:9.
+
+| | 190x80 | 190x110 |
+|---|---|---|
+| Cakera di app | 82px | **111px (+35%)** |
+| Wordmark di app | tidak berubah | **tidak berubah (fail sama)** |
+
+⚠ 10 saluran BUKAN cakera (nama memanjang / kad putih) **tidak disentuh langsung**
+— failnya bait-identik. Hanya 47 cakera dijana semula, dan ia diambil dari seni
+SUMBER penuh (240-2835px), bukan dibesarkan dari fail 80px (itu jadi kabur).
 
 ## Kenapa folder sendiri
 
@@ -32,7 +50,12 @@ hanya menyediakan thumbnail 16:9. Tidak ditemui sumber segi empat; dikecualikan.
 1. Ambil `square_image` dari `data/vidio_mapping_worker.json` (repo `vidio-rnd`).
 2. Potong ikut **alfa**; kalau tiada alfa berguna, potong ikut **beza lawan warna
    sudut** (banyak logo Vidio latar penuh, bukan lutsinar).
-3. Skala ke kanvas 190x80, pusatkan.
+3. Skala ke kanvas **190x110**, pusatkan.
+   - **Cakera** (segi empat sama, sudut kotak lutsinar, liputan 68-88%): isi
+     tinggi penuh (110px).
+   - **Bukan cakera**: biarkan fail sedia ada — jangan jana semula (pemangkasan
+     latar putih mudah rosak).
+   - ⚠ Elak bbox alfa **mentah** (gagal bila cakera menyentuh tepi saiz rendah).
 
 Skrip semak: `~/.hermes/skills/media/astro-rnd/scripts/semak_logo_vidio.py`
 (sahkan URL img-cdn hidup + md5 + provenance `square_image`).
