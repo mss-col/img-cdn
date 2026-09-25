@@ -34,4 +34,5 @@ hanya menyediakan thumbnail 16:9. Tidak ditemui sumber segi empat; dikecualikan.
    sudut** (banyak logo Vidio latar penuh, bukan lutsinar).
 3. Skala ke kanvas 190x80, pusatkan.
 
-Skrip: `astro-rnd/scripts/ambil_logo_vidio.py` (reka semula dari batch StarHub).
+Skrip semak: `~/.hermes/skills/media/astro-rnd/scripts/semak_logo_vidio.py`
+(sahkan URL img-cdn hidup + md5 + provenance `square_image`).

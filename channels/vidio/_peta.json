@@ -31,7 +31,7 @@
   ],
   "nota_tiada": "14 saluran kategori 'event' (Asian Games, tenis ATP, Champions Fight, Citra Plus) — halaman Vidio tidak menyediakan square_image; hanya thumbnail 16:9 ada. Dikecualikan, bukan gagal senyap."
  },
- "_cara_ambil_semula": "Guna `py/vidio_orchestrator.py` utk segarkan data/vidio_mapping_worker.json, kemudian `scripts/ambil_logo_vidio.py`.",
+ "_cara_ambil_semula": "1) py/vidio_orchestrator.py (repo vidio-rnd) segarkan data/vidio_mapping_worker.json; 2) ambil medan `square_image` bagi setiap cid; 3) potong ikut alfa (atau beza lawan warna sudut bila tiada alfa), skala ke kanvas 190x80, simpan PNG di sini; 4) sahkan setiap URL jsDelivr HTTP 200 + md5 padan. Prosedur penuh: skill astro-rnd, seksyen 'BATCH logo rasmi ikut PROVIDER'.",
  "_nama_fail": "channels/vidio/<slug>.png — slug drpd nama saluran (lowercase, underscore).",
  "_batch": 2,
  "rekod": {
