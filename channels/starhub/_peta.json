@@ -1,0 +1,826 @@
+{
+ "101.starhub": {
+  "nama": "Preview Channel",
+  "num": "101",
+  "fail": "preview_channel.png",
+  "logo": "109x80",
+  "saiz": 9321,
+  "md5": "f9de05c15f83a8281fddd75a33e90d8f"
+ },
+ "111.starhub": {
+  "nama": "Hub E City HD",
+  "num": "111",
+  "fail": "hub_e_city_hd.png",
+  "logo": "125x80",
+  "saiz": 11967,
+  "md5": "62001994168a49e527395e9e1f338c06"
+ },
+ "115.starhub": {
+  "nama": "Citra Entertainment",
+  "num": "115",
+  "fail": "citra_entertainment.png",
+  "logo": "190x63",
+  "saiz": 11145,
+  "md5": "9738e6c62f688d69ff6bf33d43b4654d"
+ },
+ "116.starhub": {
+  "nama": "Karisma",
+  "num": "116",
+  "fail": "karisma.png",
+  "logo": "190x44",
+  "saiz": 11753,
+  "md5": "c2d9ddbe0801cad1a9eb5c82e997377a"
+ },
+ "118.starhub": {
+  "nama": "Astro Warna HD",
+  "num": "118",
+  "fail": "astro_warna_hd.png",
+  "logo": "161x80",
+  "saiz": 9188,
+  "md5": "863c13ea7f5261f0ffa8414b03f165a9"
+ },
+ "123.starhub": {
+  "nama": "Astro Sensasi HD",
+  "num": "123",
+  "fail": "astro_sensasi_hd.png",
+  "logo": "161x80",
+  "saiz": 9727,
+  "md5": "1a119978272ebd764e3022b0d6467763"
+ },
+ "125.starhub": {
+  "nama": "Zee TV HD",
+  "num": "125",
+  "fail": "zee_tv_hd.png",
+  "logo": "176x80",
+  "saiz": 6605,
+  "md5": "08d3ae7f4ec2e09b90cded1b11e779ce"
+ },
+ "127.starhub": {
+  "nama": "Sony Entertainment Television",
+  "num": "127",
+  "fail": "sony_entertainment_television.png",
+  "logo": "80x80",
+  "saiz": 11708,
+  "md5": "8bede3cbfb5965602f3a88cd63a70f1c"
+ },
+ "128.starhub": {
+  "nama": "COLORS",
+  "num": "128",
+  "fail": "colors.png",
+  "logo": "140x80",
+  "saiz": 8634,
+  "md5": "c85a0f2d9265ebacf5669e51b1937119"
+ },
+ "130.starhub": {
+  "nama": "Zee Cinema HD",
+  "num": "130",
+  "fail": "zee_cinema_hd.png",
+  "logo": "190x49",
+  "saiz": 7010,
+  "md5": "80e57136040845e177657d349bc36a65"
+ },
+ "131.starhub": {
+  "nama": "SONY MAX",
+  "num": "131",
+  "fail": "sony_max.png",
+  "logo": "80x80",
+  "saiz": 8785,
+  "md5": "cd5f3541bbf9d51948615396a8742062"
+ },
+ "132.starhub": {
+  "nama": "COLORS Tamil HD",
+  "num": "132",
+  "fail": "colors_tamil_hd.png",
+  "logo": "97x80",
+  "saiz": 7918,
+  "md5": "b2bc6486635496adfed9a9bbd1073d13"
+ },
+ "133.starhub": {
+  "nama": "Sun TV",
+  "num": "133",
+  "fail": "sun_tv.png",
+  "logo": "99x80",
+  "saiz": 11372,
+  "md5": "49e78697161f164b3c51a07f57c7994c"
+ },
+ "134.starhub": {
+  "nama": "Sun Music",
+  "num": "134",
+  "fail": "sun_music.png",
+  "logo": "106x80",
+  "saiz": 12716,
+  "md5": "08ebcd6f7988d86ac1667e91d41d361c"
+ },
+ "135.starhub": {
+  "nama": "Vijay TV HD",
+  "num": "135",
+  "fail": "vijay_tv_hd.png",
+  "logo": "68x80",
+  "saiz": 6113,
+  "md5": "7328ca773344b3f313cca7e91e89317e"
+ },
+ "137.starhub": {
+  "nama": "Zee Thirai",
+  "num": "137",
+  "fail": "zee_thirai.png",
+  "logo": "190x68",
+  "saiz": 6806,
+  "md5": "7c2b09c79ec084a32869610df7d69572"
+ },
+ "138.starhub": {
+  "nama": "Zee Tamil HD",
+  "num": "138",
+  "fail": "zee_tamil_hd.png",
+  "logo": "190x59",
+  "saiz": 7110,
+  "md5": "d7fb981e24706c63014d61b7b9c900e1"
+ },
+ "139.starhub": {
+  "nama": "Asianet",
+  "num": "139",
+  "fail": "asianet.png",
+  "logo": "85x80",
+  "saiz": 9319,
+  "md5": "333ae6dde970689a95367349b6f475ad"
+ },
+ "140.starhub": {
+  "nama": "Asianet Movies",
+  "num": "140",
+  "fail": "asianet_movies.png",
+  "logo": "77x80",
+  "saiz": 10588,
+  "md5": "7af974608a3ec3e90d6856037ae41615"
+ },
+ "143.starhub": {
+  "nama": "ANC",
+  "num": "143",
+  "fail": "anc.png",
+  "logo": "190x73",
+  "saiz": 10776,
+  "md5": "a0d08df8f1d4a21d8d2351f5c9a09a50"
+ },
+ "145.starhub": {
+  "nama": "Cinema One Global",
+  "num": "145",
+  "fail": "cinema_one_global.png",
+  "logo": "104x80",
+  "saiz": 9024,
+  "md5": "f6d503a76a1ab5414365d82835845ee9"
+ },
+ "152.starhub": {
+  "nama": "TV5MONDE HD",
+  "num": "152",
+  "fail": "tv5monde_hd.png",
+  "logo": "190x46",
+  "saiz": 7932,
+  "md5": "16740282f2594a66a49a579f8720182e"
+ },
+ "153.starhub": {
+  "nama": "DW English HD",
+  "num": "153",
+  "fail": "dw_english_hd.png",
+  "logo": "140x80",
+  "saiz": 9798,
+  "md5": "df9fe1e66dde29d861f0ac8f0fd62f45"
+ },
+ "158.starhub": {
+  "nama": "ADITHYA TV",
+  "num": "158",
+  "fail": "adithya_tv.png",
+  "logo": "101x80",
+  "saiz": 13474,
+  "md5": "6ac2efee4939ada00646829ca1db685c"
+ },
+ "159.starhub": {
+  "nama": "KTV HD",
+  "num": "159",
+  "fail": "ktv_hd.png",
+  "logo": "111x80",
+  "saiz": 12445,
+  "md5": "b36fe88041517ffef95bcfa3782f49a0"
+ },
+ "201.starhub": {
+  "nama": "Hub Sports 1  HD",
+  "num": "201",
+  "fail": "hub_sports_1_hd.png",
+  "logo": "190x65",
+  "saiz": 16479,
+  "md5": "3e8831f32d750cb41374a96e4f1cb913"
+ },
+ "202.starhub": {
+  "nama": "Hub Sports 2 HD",
+  "num": "202",
+  "fail": "hub_sports_2_hd.png",
+  "logo": "190x65",
+  "saiz": 17083,
+  "md5": "f5f0149f91ec4666b6ae197a3c1db621"
+ },
+ "203.starhub": {
+  "nama": "Hub Sports 3 HD",
+  "num": "203",
+  "fail": "hub_sports_3_hd.png",
+  "logo": "190x65",
+  "saiz": 16883,
+  "md5": "04876a1670947a7dece1a27047325ddd"
+ },
+ "204.starhub": {
+  "nama": "Hub Sports 4 HD",
+  "num": "204",
+  "fail": "hub_sports_4_hd.png",
+  "logo": "190x65",
+  "saiz": 16782,
+  "md5": "dc82a608cfdcb53dedbbde86f8b0bea8"
+ },
+ "205.starhub": {
+  "nama": "Hub Sports 5 HD",
+  "num": "205",
+  "fail": "hub_sports_5_hd.png",
+  "logo": "190x65",
+  "saiz": 17038,
+  "md5": "cee16b8265f2edca5cd0f0a4c1bf8f2a"
+ },
+ "206.starhub": {
+  "nama": "Hub Sports 6 HD",
+  "num": "206",
+  "fail": "hub_sports_6_hd.png",
+  "logo": "190x65",
+  "saiz": 17823,
+  "md5": "e89c2fc841b8f0c406a7c5c67091a8eb"
+ },
+ "207.starhub": {
+  "nama": "Hub Sports 7 HD",
+  "num": "207",
+  "fail": "hub_sports_7_hd.png",
+  "logo": "190x65",
+  "saiz": 17511,
+  "md5": "ff85749e39a6a24ed071bf9ece32c6a8"
+ },
+ "208.starhub": {
+  "nama": "Hub Sports 8 HD",
+  "num": "208",
+  "fail": "hub_sports_8_hd.png",
+  "logo": "190x65",
+  "saiz": 17843,
+  "md5": "21f6affa5d8557475ead6b7f01b147a6"
+ },
+ "209.starhub": {
+  "nama": "SPOTV",
+  "num": "209",
+  "fail": "spotv.png",
+  "logo": "190x66",
+  "saiz": 6112,
+  "md5": "e3a86c5d142c39fb0aa8c55006b5050a"
+ },
+ "210.starhub": {
+  "nama": "SPOTV2",
+  "num": "210",
+  "fail": "spotv2.png",
+  "logo": "190x52",
+  "saiz": 6631,
+  "md5": "d1140e292c72cb9b2e8150046602ec86"
+ },
+ "211.starhub": {
+  "nama": "beIN SPORTS 2 HD",
+  "num": "211",
+  "fail": "bein_sports_2_hd.png",
+  "logo": "190x28",
+  "saiz": 9184,
+  "md5": "a2a2e7d2e864a32bef59264778859c98"
+ },
+ "213.starhub": {
+  "nama": "beIN SPORTS HD",
+  "num": "213",
+  "fail": "bein_sports_hd.png",
+  "logo": "190x28",
+  "saiz": 8794,
+  "md5": "3d52d63c89efd6be8e9617fdc83f7c3d"
+ },
+ "214.starhub": {
+  "nama": "beIN SPORTS 3 HD",
+  "num": "214",
+  "fail": "bein_sports_3_hd.png",
+  "logo": "190x28",
+  "saiz": 9120,
+  "md5": "3049a1970ec6b816e02267f0cce39304"
+ },
+ "215.starhub": {
+  "nama": "beIN SPORTS 4 HD",
+  "num": "215",
+  "fail": "bein_sports_4_hd.png",
+  "logo": "190x28",
+  "saiz": 9074,
+  "md5": "47ee70aeee652476d7426541ee63fcc4"
+ },
+ "216.starhub": {
+  "nama": "beIN SPORTS 5 HD",
+  "num": "216",
+  "fail": "bein_sports_5_hd.png",
+  "logo": "190x28",
+  "saiz": 9115,
+  "md5": "c62137cfcf6edd1ec9fa0eb0abe7a9a0"
+ },
+ "221.starhub": {
+  "nama": "Hub Premier 1",
+  "num": "221",
+  "fail": "hub_premier_1.png",
+  "logo": "190x51",
+  "saiz": 11775,
+  "md5": "20ba0a61ffd5f78a28424e47d99a33ca"
+ },
+ "222.starhub": {
+  "nama": "Hub Premier 2 (HD)",
+  "num": "222",
+  "fail": "hub_premier_2_hd.png",
+  "logo": "190x51",
+  "saiz": 12018,
+  "md5": "dd9343e56a39356bdefee50d97a033b1"
+ },
+ "223.starhub": {
+  "nama": "Hub Premier 3",
+  "num": "223",
+  "fail": "hub_premier_3.png",
+  "logo": "190x51",
+  "saiz": 12036,
+  "md5": "2b26d8d677f17f29c43c5c50ee0dd576"
+ },
+ "224.starhub": {
+  "nama": "Hub Premier 4",
+  "num": "224",
+  "fail": "hub_premier_4.png",
+  "logo": "190x51",
+  "saiz": 11963,
+  "md5": "ad93e6434daa8619e75499fcee9d720b"
+ },
+ "225.starhub": {
+  "nama": "Hub Premier 5",
+  "num": "225",
+  "fail": "hub_premier_5.png",
+  "logo": "190x51",
+  "saiz": 11945,
+  "md5": "112da262736d7e06beb8876e64f11dc3"
+ },
+ "226.starhub": {
+  "nama": "Hub Premier 6",
+  "num": "226",
+  "fail": "hub_premier_6.png",
+  "logo": "190x51",
+  "saiz": 12022,
+  "md5": "27e5a8f188889e99c9f67ec00c3aedc9"
+ },
+ "227.starhub": {
+  "nama": "Hub Premier 7",
+  "num": "227",
+  "fail": "hub_premier_7.png",
+  "logo": "190x51",
+  "saiz": 11919,
+  "md5": "7a930ecd822ad3f37e48fec15accfd68"
+ },
+ "228.starhub": {
+  "nama": "Hub Premier 8",
+  "num": "228",
+  "fail": "hub_premier_8.png",
+  "logo": "190x51",
+  "saiz": 12029,
+  "md5": "46d2d6f432f869b5ea1ef1da7ced78cf"
+ },
+ "303.starhub": {
+  "nama": "Cbeebies HD",
+  "num": "303",
+  "fail": "cbeebies_hd.png",
+  "logo": "183x80",
+  "saiz": 18865,
+  "md5": "3f1b54141a85af8639a04d6d26f3146e"
+ },
+ "304.starhub": {
+  "nama": "Nick Jr. HD",
+  "num": "304",
+  "fail": "nick_jr_hd.png",
+  "logo": "190x50",
+  "saiz": 8751,
+  "md5": "c52f886e6384d89bec3696de4a701f53"
+ },
+ "314.starhub": {
+  "nama": "Nickelodeon Asia HD",
+  "num": "314",
+  "fail": "nickelodeon_asia_hd.png",
+  "logo": "190x27",
+  "saiz": 8332,
+  "md5": "84f6c9cf8baf51ec83465fcd17ac1667"
+ },
+ "316.starhub": {
+  "nama": "Cartoon Network",
+  "num": "316",
+  "fail": "cartoon_network.png",
+  "logo": "137x80",
+  "saiz": 8054,
+  "md5": "299b28077bde34d3884ae136938ba07e"
+ },
+ "boomeranghd.starhub": {
+  "nama": "Cartoonito HD",
+  "num": "317",
+  "fail": "cartoonito_hd.png",
+  "logo": "190x42",
+  "saiz": 6855,
+  "md5": "ac5e3de673ba8a6fa2016ebc50de85cd"
+ },
+ "401.starhub": {
+  "nama": "HISTORY HD",
+  "num": "401",
+  "fail": "history_hd.png",
+  "logo": "76x80",
+  "saiz": 8641,
+  "md5": "19ecb39abed3f06b3f4d35c7e702d433"
+ },
+ "403.starhub": {
+  "nama": "Crime + Investigation HD",
+  "num": "403",
+  "fail": "crime_investigation_hd.png",
+  "logo": "124x80",
+  "saiz": 14125,
+  "md5": "ad8aa79ac4edd6c5211a2a68b3147917"
+ },
+ "407.starhub": {
+  "nama": "BBC Earth HD",
+  "num": "407",
+  "fail": "bbc_earth_hd.png",
+  "logo": "165x80",
+  "saiz": 6982,
+  "md5": "6d127768fd223b78f4df811c6e42521b"
+ },
+ "422.starhub": {
+  "nama": "Discovery HD",
+  "num": "422",
+  "fail": "discovery_hd.png",
+  "logo": "190x39",
+  "saiz": 9987,
+  "md5": "b753c189af401164973b423221216d6c"
+ },
+ "427.starhub": {
+  "nama": "Travelxp HD",
+  "num": "427",
+  "fail": "travelxp_hd.png",
+  "logo": "80x80",
+  "saiz": 2867,
+  "md5": "c3147c480a450a57a0d94286b6c42606"
+ },
+ "432.starhub": {
+  "nama": "BBC Lifestyle HD",
+  "num": "432",
+  "fail": "bbc_lifestyle_hd.png",
+  "logo": "173x80",
+  "saiz": 9888,
+  "md5": "6af24316ecb66ea0c7293b3d5b234405"
+ },
+ "437.starhub": {
+  "nama": "HGTV HD",
+  "num": "437",
+  "fail": "hgtv_hd.png",
+  "logo": "157x80",
+  "saiz": 11690,
+  "md5": "e9dad1e6adb2a4cfc983d718120c358e"
+ },
+ "443.starhub": {
+  "nama": "FashionTV HD",
+  "num": "443",
+  "fail": "fashiontv_hd.png",
+  "logo": "190x47",
+  "saiz": 7731,
+  "md5": "a2a89a1a25a42518a06154c04c0c9e36"
+ },
+ "447.starhub": {
+  "nama": "ABC Australia HD",
+  "num": "447",
+  "fail": "abc_australia_hd.png",
+  "logo": "142x80",
+  "saiz": 5939,
+  "md5": "368f72cce20201c1cf56f8e90fd5caa7"
+ },
+ "509.starhub": {
+  "nama": "ROCK Entertainment HD",
+  "num": "509",
+  "fail": "rock_entertainment_hd.png",
+  "logo": "190x69",
+  "saiz": 18655,
+  "md5": "e6f36a4f914b8c1f2f929815a8e957ca"
+ },
+ "511.starhub": {
+  "nama": "AXN HD",
+  "num": "511",
+  "fail": "axn_hd.png",
+  "logo": "190x62",
+  "saiz": 4524,
+  "md5": "15561e3d027e791f07bc9ab509f4f2d3"
+ },
+ "512.starhub": {
+  "nama": "HITS MOVIES HD",
+  "num": "512",
+  "fail": "hits_movies_hd.png",
+  "logo": "126x80",
+  "saiz": 18966,
+  "md5": "bdd9e47aea0bc7ff805f57479c1169a8"
+ },
+ "514.starhub": {
+  "nama": "Lifetime HD",
+  "num": "514",
+  "fail": "lifetime_hd.png",
+  "logo": "190x58",
+  "saiz": 9178,
+  "md5": "58d86e032e0fc605031b377aa633ca2e"
+ },
+ "519.starhub": {
+  "nama": "Hits HD",
+  "num": "519",
+  "fail": "hits_hd.png",
+  "logo": "190x75",
+  "saiz": 11303,
+  "md5": "ea320915a20034afa2e106f191767b29"
+ },
+ "532.starhub": {
+  "nama": "Animax HD",
+  "num": "532",
+  "fail": "animax_hd.png",
+  "logo": "190x65",
+  "saiz": 13009,
+  "md5": "74fa828ff3e1de44a4f99cbc5fd176a3"
+ },
+ "601.starhub": {
+  "nama": "HBO HD",
+  "num": "601",
+  "fail": "hbo_hd.png",
+  "logo": "190x78",
+  "saiz": 7817,
+  "md5": "394ced5775d78a7b69c7fd3ca91203bd"
+ },
+ "603.starhub": {
+  "nama": "HBO Signature HD",
+  "num": "603",
+  "fail": "hbo_signature_hd.png",
+  "logo": "163x80",
+  "saiz": 11520,
+  "md5": "247f7f3cba50171cf610f69c20294b2f"
+ },
+ "604.starhub": {
+  "nama": "HBO Family HD",
+  "num": "604",
+  "fail": "hbo_family_hd.png",
+  "logo": "129x80",
+  "saiz": 9590,
+  "md5": "6c7ec2a19e35b6c3921eca46faf06aa2"
+ },
+ "605.starhub": {
+  "nama": "HBO Hits HD",
+  "num": "605",
+  "fail": "hbo_hits_hd.png",
+  "logo": "127x80",
+  "saiz": 10138,
+  "md5": "d9246ff76c1efd144400a6246ec7de3f"
+ },
+ "307.starhub": {
+  "nama": "DreamWorks HD",
+  "num": "606",
+  "fail": "dreamworks_hd.png",
+  "logo": "136x80",
+  "saiz": 8332,
+  "md5": "5c8191ac4796892ce71187ce353db5a8"
+ },
+ "611.starhub": {
+  "nama": "Cinemax HD",
+  "num": "611",
+  "fail": "cinemax_hd.png",
+  "logo": "190x65",
+  "saiz": 10587,
+  "md5": "7d61471905b43b6aa9cbabfecd05d220"
+ },
+ "701.starhub": {
+  "nama": "BBC News HD",
+  "num": "701",
+  "fail": "bbc_news_hd.png",
+  "logo": "125x80",
+  "saiz": 7882,
+  "md5": "ad5970d77f4d842d2d0bb2856e3ca135"
+ },
+ "702.starhub": {
+  "nama": "Fox News Channel HD",
+  "num": "702",
+  "fail": "fox_news_channel_hd.png",
+  "logo": "84x80",
+  "saiz": 10874,
+  "md5": "2aabb9b5fc1fe8c45ab7857f56133508"
+ },
+ "703.starhub": {
+  "nama": "Sky News HD",
+  "num": "703",
+  "fail": "sky_news_hd.png",
+  "logo": "190x39",
+  "saiz": 10812,
+  "md5": "b631385347384eb774b65dd4f556bb93"
+ },
+ "704.starhub": {
+  "nama": "Euronews HD",
+  "num": "704",
+  "fail": "euronews_hd.png",
+  "logo": "80x80",
+  "saiz": 4848,
+  "md5": "2fc9d85b8dff2ebd2b20e31c963ae041"
+ },
+ "707.starhub": {
+  "nama": "CNBC HD",
+  "num": "707",
+  "fail": "cnbc_hd.png",
+  "logo": "190x61",
+  "saiz": 7891,
+  "md5": "1abe3a71eef88d4c5af3033d8734399b"
+ },
+ "708.starhub": {
+  "nama": "Bloomberg Television HD",
+  "num": "708",
+  "fail": "bloomberg_television_hd.png",
+  "logo": "190x45",
+  "saiz": 8968,
+  "md5": "55b93effbae2d8292a6fefddf93f8642"
+ },
+ "709.starhub": {
+  "nama": "Bloomberg Originals",
+  "num": "709",
+  "fail": "bloomberg_originals.png",
+  "logo": "190x52",
+  "saiz": 10247,
+  "md5": "dbe2b0a61918075a17717d6a90e19ff0"
+ },
+ "711.starhub": {
+  "nama": "CNN HD",
+  "num": "711",
+  "fail": "cnn_hd.png",
+  "logo": "80x80",
+  "saiz": 4201,
+  "md5": "718f99f7a2f3630a4f2f1f1692c713cd"
+ },
+ "seatoday.starhub": {
+  "nama": "SEA Today",
+  "num": "720",
+  "fail": "sea_today.png",
+  "logo": "164x80",
+  "saiz": 14003,
+  "md5": "e4cedccadde9295ce2f70729e982e53d"
+ },
+ "722.starhub": {
+  "nama": "CGTN",
+  "num": "722",
+  "fail": "cgtn.png",
+  "logo": "190x51",
+  "saiz": 7972,
+  "md5": "cdf6c47f53a314c039e0e48525fcc35b"
+ },
+ "724.starhub": {
+  "nama": "France24",
+  "num": "724",
+  "fail": "france24.png",
+  "logo": "64x80",
+  "saiz": 7791,
+  "md5": "60eaab79d5246d0c4d01f8e4d65b6318"
+ },
+ "801.starhub": {
+  "nama": "CCTV-4",
+  "num": "801",
+  "fail": "cctv_4.png",
+  "logo": "190x79",
+  "saiz": 15049,
+  "md5": "821ef8939732dc4163da263e4885bd90"
+ },
+ "805.starhub": {
+  "nama": "Phoenix Chinese Channel HD",
+  "num": "805",
+  "fail": "phoenix_chinese_channel_hd.png",
+  "logo": "65x80",
+  "saiz": 11327,
+  "md5": "e4d80bd49e77db37ea7998381c9de859"
+ },
+ "806.starhub": {
+  "nama": "Phoenix InfoNews Channel HD",
+  "num": "806",
+  "fail": "phoenix_infonews_channel_hd.png",
+  "logo": "190x57",
+  "saiz": 15619,
+  "md5": "1ead0d6592a0b21d6452ba7b605a8881"
+ },
+ "808.starhub": {
+  "nama": "TVBS-NEWS",
+  "num": "808",
+  "fail": "tvbs_news.png",
+  "logo": "117x80",
+  "saiz": 9701,
+  "md5": "34dc0139647082bc83c7135015aaa627"
+ },
+ "812.starhub": {
+  "nama": "NHK WORLD - JAPAN HD",
+  "num": "812",
+  "fail": "nhk_world_japan_hd.png",
+  "logo": "190x47",
+  "saiz": 5935,
+  "md5": "5ad1cfae8cfe61d971c1258918f61c32"
+ },
+ "815.starhub": {
+  "nama": "KBS World HD",
+  "num": "815",
+  "fail": "kbs_world_hd.png",
+  "logo": "190x32",
+  "saiz": 7747,
+  "md5": "564f0ed3be852403eed2bcb938a13368"
+ },
+ "817.starhub": {
+  "nama": "Arirang TV HD",
+  "num": "817",
+  "fail": "arirang_tv_hd.png",
+  "logo": "190x49",
+  "saiz": 9473,
+  "md5": "eb4ee3a013a9c3eb7c1edb427ae28153"
+ },
+ "820.starhub": {
+  "nama": "ETTV ASIA HD",
+  "num": "820",
+  "fail": "ettv_asia_hd.png",
+  "logo": "190x26",
+  "saiz": 11390,
+  "md5": "01c7a4b216a2b720c2a8bb70be792e92"
+ },
+ "823.starhub": {
+  "nama": "ONE HD",
+  "num": "823",
+  "fail": "one_hd.png",
+  "logo": "80x80",
+  "saiz": 13423,
+  "md5": "68bf2ca6c45f3ec631b5038eeeda0cb4"
+ },
+ "825.starhub": {
+  "nama": "Hub E City HD",
+  "num": "825",
+  "fail": "hub_e_city_hd_825.png",
+  "logo": "125x80",
+  "saiz": 11967,
+  "md5": "62001994168a49e527395e9e1f338c06"
+ },
+ "827.starhub": {
+  "nama": "CTI Asia HD",
+  "num": "827",
+  "fail": "cti_asia_hd.png",
+  "logo": "190x37",
+  "saiz": 8537,
+  "md5": "f38bcb5cb6b8291982f4e1de3fadc84a"
+ },
+ "828.starhub": {
+  "nama": "TVBS Asia",
+  "num": "828",
+  "fail": "tvbs_asia.png",
+  "logo": "92x80",
+  "saiz": 10435,
+  "md5": "4fe61e3416295116fa72818d1e9aedee"
+ },
+ "832.starhub": {
+  "nama": "Dragon TV",
+  "num": "832",
+  "fail": "dragon_tv.png",
+  "logo": "71x80",
+  "saiz": 7208,
+  "md5": "5e8a1a8d2656c94b552859a9007fdcd4"
+ },
+ "838.starhub": {
+  "nama": "TVB Jade HD",
+  "num": "838",
+  "fail": "tvb_jade_hd.png",
+  "logo": "190x47",
+  "saiz": 11995,
+  "md5": "603a70d69975d3f49f7321e9bc8c6eb8"
+ },
+ "855.starhub": {
+  "nama": "Hub VV Drama HD",
+  "num": "855",
+  "fail": "hub_vv_drama_hd.png",
+  "logo": "181x80",
+  "saiz": 19365,
+  "md5": "d08cf483b5d5aa5c227dabd4e88baa18"
+ },
+ "859.starhub": {
+  "nama": "TVB Xing He HD",
+  "num": "859",
+  "fail": "tvb_xing_he_hd.png",
+  "logo": "68x80",
+  "saiz": 8664,
+  "md5": "d894973a82c89134cddc0618e3abc4a6"
+ },
+ "868.starhub": {
+  "nama": "Celestial Movies HD",
+  "num": "868",
+  "fail": "celestial_movies_hd.png",
+  "logo": "190x56",
+  "saiz": 16473,
+  "md5": "5ff860f3403e883cac090119b460539a"
+ },
+ "869.starhub": {
+  "nama": "CCM",
+  "num": "869",
+  "fail": "ccm.png",
+  "logo": "190x52",
+  "saiz": 13964,
+  "md5": "3cbf713e5fd054c349dd82eaaa0f9563"
+ }
+}
